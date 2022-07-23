@@ -54,7 +54,7 @@ const Counter = () => {
       <button onClick={incrementHandler}>Increment</button>
       <button onClick={decrementHandler}>Decrement</button>
       <button onClick={appendUserHandler}>Append User</button>
-      <p>{JSON.stringify(data)}</p>
+      {/* <p>{JSON.stringify(data)}</p> */}
       <div
         style={{
           display: "flex",

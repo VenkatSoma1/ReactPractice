@@ -32,3 +32,47 @@
   color: white;
   cursor: pointer;
 }
+
+/* Calculator Css */
+.calculatorContainer {
+  display: flex;
+  justify-content: center;
+  flex-basis: auto;
+  flex-wrap: wrap;
+  width: 300px;
+  background: #82b6c1de;
+  align-items: center;
+  box-shadow: 3px 4px 11px 0 rgb(0 0 0 / 20%);
+}
+.rowBox {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #f0f0f0;
+  margin: 10px;
+  display: flex;
+  flex: 1 1 auto;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.rowBox:hover {
+  background-color: #d2afaf;
+}
+.resultShowBox {
+  flex: 0 0 100%;
+  border: none;
+}
+.inputResults {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: #fbfbfb;
+  margin: 0 9px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-right: 20px;
+}
